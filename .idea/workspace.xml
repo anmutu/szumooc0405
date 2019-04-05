@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="889f066e-35ee-4675-a425-b37729523e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/course/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/operation/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szumooc1904031009" beforeDir="false" afterPath="$PROJECT_DIR$/szumooc1904031009" afterDir="false" />
-    </list>
+    <list default="true" id="889f066e-35ee-4675-a425-b37729523e9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/apps/course/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-568">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#143#156#0" expanded="true" />
               </folding>
@@ -79,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="e#146#159#0" expanded="true" />
               </folding>
@@ -90,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
               <folding>
                 <element signature="e#149#162#0" expanded="true" />
               </folding>
@@ -304,7 +298,7 @@
       <workItem from="1554272179224" duration="1224000" />
       <workItem from="1554273697910" duration="630000" />
       <workItem from="1554376612981" duration="16401000" />
-      <workItem from="1554436485140" duration="6162000" />
+      <workItem from="1554436485140" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="1.完成xadmin里user类的相关model的注册及相应优化（如verbose_name和重写__str__）。">
       <created>1554434901211</created>
@@ -369,22 +363,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554444883439</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.其他apps（course,operation,organization）註冊到xadmin里。">
+      <created>1554448358984</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554448358984</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28567000" />
+    <option name="totallyTimeSpent" value="28818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21099435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21099435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1793961" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,7 +463,8 @@
       <path value="$PROJECT_DIR$/szumooc190403" />
     </ignored-roots>
     <MESSAGE value="1.完成xadmin里user类的相关model的注册及相应优化（如verbose_name和重写__str__）。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成xadmin里user类的相关model的注册及相应优化（如verbose_name和重写__str__）。" />
+    <MESSAGE value="1.其他apps（course,operation,organization）註冊到xadmin里。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.其他apps（course,operation,organization）註冊到xadmin里。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -641,7 +643,7 @@
     <entry file="file://$PROJECT_DIR$/apps/course/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#143#156#0" expanded="true" />
           </folding>
@@ -651,7 +653,7 @@
     <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#146#159#0" expanded="true" />
           </folding>
@@ -660,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="330">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
           <folding>
             <element signature="e#149#162#0" expanded="true" />
           </folding>
