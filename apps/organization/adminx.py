@@ -6,7 +6,7 @@ __date__ = '2019/4/5 15:08'
 import xadmin
 
 from .models import CityDict, CourseOrg, Teacher
-
+from xadmin import views
 
 class CityDictAdmin(object):
     """城市"""
@@ -32,6 +32,9 @@ class TeacherAdmin(object):
     list_filter = ['org__name', 'name', 'work_years', 'work_company', 'click_nums', 'fav_nums', 'add_time']
 
 
+# 註冊model到xadmin里
 xadmin.site.register(CityDict, CityDictAdmin)
 xadmin.site.register(CourseOrg, CourseOrgAdmin)
 xadmin.site.register(Teacher, TeacherAdmin)
+
+
